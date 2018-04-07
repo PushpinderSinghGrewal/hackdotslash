@@ -7,13 +7,8 @@ class App extends Component {
     const clusterName = process.env.REACT_APP_CLUSTER_NAME || 'NoClusterName';
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        
+         <div id="bar" style={{height:'50px',backgroundColor:'#3B5998'}} >
       </div>
     );
   }

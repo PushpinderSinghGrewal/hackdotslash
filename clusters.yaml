@@ -1,7 +1,6 @@
+clusters:
 - alias: hasura
-  config:
-    configmap: controller-conf
-    namespace: deflation71-hasura
   data: null
-  kubeContext: deflation71
-  name: deflation71
+  infra:
+    provider: hasura-free
+version: v1
