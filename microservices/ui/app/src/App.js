@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         
-         <div id="bar" style={{height:'50px',backgroundColor:'#3B5998'}} > </div>
+         <div id="bar" style={{height:'50px',backgroundColor:'#3B5998'}} >E-campus </div>
       </div>
     );
   }
