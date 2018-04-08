@@ -32,7 +32,15 @@ class App extends Component {
                 />
 
            <Paper style={{marginLeft:670,marginTop:-255,height:500,width:500}}><p style={{color:'blue',paddingTop:20,paddingLeft:20}}><b>Lost Something? </b><br/></p> 
-           <p style={{paddingTop:10,paddingLeft:20,paddingRight:20}}>Just fill out the next few fields and we will deliver it to your doorstep once we find it!</p></Paper>
+           <p style={{paddingTop:10,paddingLeft:20,paddingRight:20}}>Just fill out the next few fields and we will deliver it to your doorstep once we find it!</p>
+           <TextField style={{paddingLeft:20}}
+                hintText="What did  you lost?"
+              />
+                           
+               <TextField style={{paddingLeft:20}}
+               hintText="Anything else we should know?"
+                />
+           </Paper>
             
               </Paper>
               </div>
