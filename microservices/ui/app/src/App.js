@@ -24,36 +24,44 @@ class App extends Component {
              <TextField style={{paddingLeft:20}}
                 hintText="What did  you find?"
               />
-             <TextField style={{paddingLeft:20}}
+             <TextField style={{paddingLeft:20,marginTop:20}}
               hintText="Where did you find it?"
               />
-              <TextField style={{paddingLeft:20}}
-               hintText="Anything else we should know?"
+              <TextField style={{paddingLeft:20,marginTop:20}}
+               hintText="Anything else we should know?" 
                 />
+                <div>
+                <FlatButton  label="Send" style={{backgroundColor:'lightBlue',color:'black',marginTop:50,marginLeft:20}}/> </div>
 
-           <Paper style={{marginLeft:670,marginTop:-255,height:500,width:500}}><p style={{color:'blue',paddingTop:20,paddingLeft:20}}><b>Lost Something? </b><br/></p> 
-           <p style={{paddingTop:10,paddingLeft:20,paddingRight:20}}>Just fill out the next few fields and we will deliver it to your doorstep once we find it!</p>
+           <Paper style={{marginLeft:670,marginTop:-385,height:500,width:500}}><p style={{color:'blue',paddingTop:20,paddingLeft:20}}><b>Lost Something? </b><br/></p> 
+           <p style={{paddingTop:10,paddingLeft:20,paddingRight:20}}>Just fill out the form and we will deliver it to your doorstep once we find it!</p>
            <TextField style={{paddingLeft:20}}
                 hintText="What did  you lost?"
               />
-                           
-               <TextField style={{paddingLeft:20}}
+                      <TextField style={{paddingLeft:20,marginTop:20}}
+              hintText="Remember where you lost it?"   />  
+               <TextField style={{paddingLeft:20,marginTop:20}}
                hintText="Anything else we should know?"
                 />
+                <div><FlatButton  label="Send" style={{backgroundColor:'lightBlue',color:'black',marginTop:20,marginLeft:'20px'}}/></div>
            </Paper>
             
               </Paper>
               </div>
               <List>
               <Paper style={{marginLeft:170,marginTop:30,height:160,width:1170 }} >
-              <ListItem style={{marginLeft:'0px'}}>
-                <p style={{color:'red',marginTop:20}}><b>Facing some issue in the campus but don't know who to report to? Type it out here and we assure you to take care of it.</b></p>
-                <FlatButton  label="Send" style={{backgroundColor:'lightBlue',color:'black',marginBottom:'0',marginLeft:'1050px'}}/>
-                 <input  type="text" placeholder="" class="form-control"
-            style={{marginTop:'0px',height:'30px',width:'100%',backgroundColor:'#F8F8F8'}} />
-          <i style={{marginRight:'-65px',marginTop:'20px'}} class=" fa fa-search form-control-feedback"></i>
+              
+                <p style={{color:'red',paddingTop:30,paddingLeft:30}}><b>Facing some issue in the campus but don't know who to report to?
+                Type it out here and we assure you to take care of it!</b></p>
+                
+            <TextField style={{marginLeft:20,marginRight:20}}
+      hintText="Feel free to write your issue"
+      fullWidth={true} />
+                <FlatButton  label="Send" style={{backgroundColor:'lightBlue',color:'black',marginTop:50,marginLeft:'1052px'}}/>
+                
+          
 
-                </ListItem>
+                
                 </Paper>
                 </List>
             </List> 

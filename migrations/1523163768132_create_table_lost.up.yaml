@@ -1,0 +1,7 @@
+- args:
+    sql: CREATE TABLE "lost"("item_name" text NOT NULL, "place" text , "description"
+      text , PRIMARY KEY ("item_name","place","description") )
+  type: run_sql
+- args:
+    name: lost
+  type: add_existing_table_or_view
